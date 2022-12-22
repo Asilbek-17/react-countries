@@ -1,0 +1,33 @@
+:root {
+    --header-bg-color: #fff;
+    --text-color: #111517;
+    --main-bg-color: #fafafa;
+    --item-bg-color: #fff;
+    --input-color: #848484;
+    --search-color: #fff;
+}
+
+.Dark {
+    --header-bg-color: #000;
+    --text-color: #fff;
+    --main-bg-color: #111;
+    --item-bg-color: #000;
+    --input-color: #fff;
+    --search-color: #000;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito Sans", "Arial", sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
